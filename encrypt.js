@@ -8,7 +8,7 @@
 */
 
 function encrypt (){
-  var rand = Math.floor((Math.random() * 100) + 1);
+  var rand = Math.floor(((Math.random() * (100 - 5 )) + 1) + 5);
 
   var message = document.getElementById( 'messageID').value;
   var newString = "";
